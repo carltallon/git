@@ -3,7 +3,7 @@ All the git commands you'd ever need &amp; their explanation
 
 # git checkout = switch branches
 therefore this creates branch and switches to it
-```console 
+```
 git checkout -b branchname
 ```
 
@@ -54,7 +54,10 @@ git tag text C1
 ```
 add tag to commit to show important milestones
 
-# git pull --rebase 
+# git pull 
+``` 
+git pull --rebase
+``` 
 pull from repo but in new branch (rebase)
 
 # If you work on a large team, you generally can't push directly onto the main branch. The solution is to create your own branch locally, make your changes, then push that change to the remote using a pull request. Therefore do :
